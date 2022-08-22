@@ -5,6 +5,8 @@
       <root url="jar://$MAVEN_REPOSITORY$/apache-lang/commons-lang/2.0/commons-lang-2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/commons-lang-2.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
