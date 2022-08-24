@@ -10,8 +10,8 @@
         <module name="springGurulessons" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="springGurulessons" target="11" />
+    <bytecodeTargetLevel target="17">
+      <module name="springGurulessons" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
