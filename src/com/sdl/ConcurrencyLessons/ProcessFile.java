@@ -6,11 +6,7 @@ import java.util.stream.Collectors;
 
 public class ProcessFile {
     public List<String> getValueLength(List<String> dataset) {
-//        List<String> list = new ArrayList<>();
-//         dataset.forEach(name-> list.add(addLengthToValue(name)));
-//         return list;
-
-        return dataset.parallelStream().map(this::transform).sequential().collect(Collectors.toList());
+        return dataset.parallelStream().map(this::transform).collect(Collectors.toList());
     }
 
     private String transform(String name) {

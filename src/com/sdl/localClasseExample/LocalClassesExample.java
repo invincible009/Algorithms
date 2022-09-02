@@ -1,7 +1,10 @@
 package com.sdl.localClasseExample;
 
 
-import java.util.ArrayList;
+import java.time.LocalDate;
+import java.time.Month;
+import java.time.temporal.TemporalAdjuster;
+import java.time.temporal.TemporalAdjusters;
 
 public class LocalClassesExample {
 
@@ -33,5 +36,18 @@ public class LocalClassesExample {
           return true;
 
 
+    }
+
+    public LocalDate dateOfBirth(){
+        LocalDate today = LocalDate.now();
+        LocalDate payday = today.with(TemporalAdjusters.lastDayOfMonth()).minusMonths(10);
+        return payday;
+    }
+
+    public LocalDate aYearFromToday(int nextBirthDay){
+        //There has to be a way of converting the string year to the expected format
+        LocalDate today = LocalDate.of(1990, Month.JULY, 10);
+        LocalDate nextYear = today.plusYears(nextBirthDay);
+        return nextYear;
     }
 }

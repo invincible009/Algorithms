@@ -17,8 +17,12 @@ public class HelloWorldThreadExample {
 
     }
 
-    private static void delay(int i) throws InterruptedException {
-        TimeUnit.SECONDS.sleep(i);
+    public static void delay(int i)  {
+        try {
+            TimeUnit.SECONDS.sleep(i);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void main(String[] args) throws InterruptedException {
