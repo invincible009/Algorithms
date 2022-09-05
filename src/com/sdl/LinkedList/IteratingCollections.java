@@ -1,6 +1,7 @@
 package com.sdl.LinkedList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class IteratingCollections {
@@ -31,5 +32,14 @@ public class IteratingCollections {
         //Using method reference
         //Output : note1,note2,note3,note4,note5
         notes.forEach(System.out::println);
+
+
+
+        List<String> names = Arrays.asList("aa", "bb", "cc", "dd");
+
+        List<String> uppercaseNames = new ArrayList<>();
+        for (String name : names) {
+            uppercaseNames.add(name.toUpperCase());
+        }
     }
 }
