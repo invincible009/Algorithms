@@ -3,6 +3,7 @@ package com.sdl.LinkedList;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class IteratingCollections {
     public static void main(String[] args) {
@@ -41,5 +42,9 @@ public class IteratingCollections {
         for (String name : names) {
             uppercaseNames.add(name.toUpperCase());
         }
+
+        // In Java 8
+        List<String> nameLst = names.stream().map(String::toUpperCase).collect(Collectors.toList());
+        System.out.println(nameLst); //output- [AA, BB, CC, DD]
     }
 }
