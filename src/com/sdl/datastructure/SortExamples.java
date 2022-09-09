@@ -14,10 +14,11 @@ public class SortExamples extends Utils {
          * In this implementation, I'll be sorting the array from right to left.
          *The array will be sorted in accenting order.
          */
-        bobbleSortImplementation(intArray);
-        selectionSortImplementation(intArray);
-        insertionSortImplementation(intArray);
-        insertionSortUsingShellSort(intArray);
+//        bobbleSortImplementation(intArray);
+//        selectionSortImplementation(intArray);
+//        insertionSortImplementation(intArray);
+//        insertionSortUsingShellSort(intArray);
+        System.out.println(factorial(20));
 
 
     }
