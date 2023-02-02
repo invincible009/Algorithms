@@ -51,7 +51,7 @@ public class HelloWorldAnonymousClasses {
             String name = " mundo";
             @Override
             public void greet() {
-                greetSomeone("mundo");
+                greetSomeone("Mundo");
             }
 
             @Override
