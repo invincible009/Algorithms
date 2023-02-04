@@ -17,6 +17,8 @@ Usage
 
 Instructions on how to use the project and any relevant examples or usage cases.
 ### Algorithms Implemented
+- MergeSort (using recursion)
+- QuickSort
 
 List of algorithms you have implemented in this repository and a brief explanation of each.
 Spring Tutorials
