@@ -8,6 +8,9 @@ Prerequisites
 
 List any necessary tools, libraries, or dependencies that need to be installed before setting up the project.
 ### Installing
+- java 11
+- maven
+
 
 Step-by-step instructions on how to install and set up the project on your local machine.
 Usage
