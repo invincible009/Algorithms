@@ -15,8 +15,8 @@ public class QuickSortImpl {
         }
 
         int pivotIndex = partitionArray(intArray, start, end);
-        quickSort(intArray, start, pivotIndex);
-        quickSort(intArray, pivotIndex + 1, end);
+        quickSort(intArray, start, pivotIndex); // right hand side of the array
+        quickSort(intArray, pivotIndex + 1, end); // left hand side of the array
     }
 
     private static int partitionArray(int[] intArray, int start, int end) {
@@ -26,11 +26,11 @@ public class QuickSortImpl {
 
         while (i < j){
 
+
             while (i < j && intArray[--j] >= pivot);
             if(i < j){
                 intArray[i] = intArray[j];
             }
-
 
             while (i < j && intArray[++i] <= pivot);
             if(i < j){
