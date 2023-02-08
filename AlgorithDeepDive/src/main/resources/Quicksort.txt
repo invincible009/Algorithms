@@ -5,3 +5,9 @@ There are many versions of quick sort algorithm that pick pivot in different way
  - Quick sor is a non-stable algorithm, meaning it does not guarantee the order of same value element after it has been
  sorted.
  - Quick sort is a O(nlogn) algorithm
+
+ Assignment:
+ Implement quicksort algorithm for the following
+ -float, double, int ( list and object)
+ -Strings ( list, object, list of list)
+ -LinkedList
