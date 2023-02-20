@@ -8,12 +8,18 @@ Prerequisites
 
 List any necessary tools, libraries, or dependencies that need to be installed before setting up the project.
 ### Installing
+- java 11
+- maven
+
 
 Step-by-step instructions on how to install and set up the project on your local machine.
 Usage
 
 Instructions on how to use the project and any relevant examples or usage cases.
 ### Algorithms Implemented
+- MergeSort (using recursion)
+- QuickSort(note: Quick sort is applied to different types of data structure)
+- Radix Sort
 
 List of algorithms you have implemented in this repository and a brief explanation of each.
 Spring Tutorials

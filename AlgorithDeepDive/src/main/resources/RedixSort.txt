@@ -1,0 +1,14 @@
+Radix sort works by sorting each digit from least significant digit. So in base 10 ( the decimal system ) radix sort by the
+digits in the 1'a place, then the 10's place and so on. To do this, radix sort uses counting sort as a subroutine to sort the digits
+in each place value. This means that for a three digits number in base 10, counting sort will be called to sort the first place numbers,
+then it will be called to sort the second place number then it will be called to sort the last place numbers. At the end of the day,
+the result will be a completly sorted list of numbers.
+This sort applies to numbers(integers) and strings.
+
+RadixSort is a stable sort which means it preserves the relative order of elements, that have thesame key value. This is very important to note.
+
+Complexity of the radix sort
+Radix sort can operate on n-digit numbers, where each digit can be one of at most b diffrent valuwa( since b is he base being used)
+Radiz sort uses stable counting sort for each digit. therefore the total running time of the radix sort is O(d(n+b))
+When d is a constant and b isn't larger than n ( in other words b =O(n)
+Radix sort takes linear time.

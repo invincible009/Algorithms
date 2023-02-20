@@ -1,0 +1,13 @@
+Quick sort is a divide and Conquer algorithm. This algorithm picks an element as pivot and partitions the given array around the picked pivot
+There are many versions of quick sort algorithm that pick pivot in different ways but for our example, we'll are picking
+ the pivot as the first element of the array
+ The following are attributes of quick sort.
+ - Quick sor is a non-stable algorithm, meaning it does not guarantee the order of same value element after it has been
+ sorted.
+ - Quick sort is a O(nlogn) algorithm
+
+ Assignment:
+ Implement quicksort algorithm for the following
+ -float, double, int ( list and object)
+ -Strings ( list, object, list of list)
+ -LinkedList
