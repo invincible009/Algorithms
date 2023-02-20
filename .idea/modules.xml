@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndiaBix/IndiaBix.iml" filepath="$PROJECT_DIR$/IndiaBix/IndiaBix.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogAnalyzer/LogAnalyzer.iml" filepath="$PROJECT_DIR$/LogAnalyzer/LogAnalyzer.iml" />
     </modules>
   </component>
