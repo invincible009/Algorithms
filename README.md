@@ -41,4 +41,3 @@ Instructions on how to contribute to the project and guidelines for doing so.
 The license under which your project is released (e.g. MIT License).
 ### Acknowledgements
 
-List any sources or individuals that you would like to acknowledge for their help or inspiration in creating the project.
