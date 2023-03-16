@@ -31,4 +31,3 @@ A description of the various Java-related items you have included in the reposit
 ### Contributing
 
 ### India Bix.
-IndiaBix has a collection of intresting problems.
