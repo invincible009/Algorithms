@@ -36,4 +36,3 @@ https://www.indiabix.com/
 ### Contributing
 
 Instructions on how to contribute to the project and guidelines for doing so.
-### License
