@@ -38,5 +38,3 @@ https://www.indiabix.com/
 Instructions on how to contribute to the project and guidelines for doing so.
 ### License
 
-The license under which your project is released (e.g. MIT License).
-
