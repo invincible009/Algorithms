@@ -35,4 +35,3 @@ IndiaBix has a collection of intresting problems.
 https://www.indiabix.com/
 ### Contributing
 
-Instructions on how to contribute to the project and guidelines for doing so.
