@@ -27,6 +27,5 @@ Spring Tutorials
 A brief explanation of the spring tutorials included in the repository and what they cover.
 ### Java Stuff
 
-A description of the various Java-related items you have included in the repository and their purpose.
 
 
