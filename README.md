@@ -25,7 +25,4 @@ List of algorithms you have implemented in this repository and a brief explanati
 Spring Tutorials
 
 A brief explanation of the spring tutorials included in the repository and what they cover.
-### Java Stuff
-
-
 
