@@ -2,9 +2,7 @@ package org.example.countingSort;
 
 public class CountingSortImpl {
     public static void main(String[] args) {
-//        int[] intArray ={20, 23,55,54,12,34,67,89,98,76,90,10,2,8,5,6,3};
         int[] intArray ={2, 5,9,8,2,8,7,10,4,3};
-        //countingSort(intArray, 1, 10);
         countingSortWithoutArrMinMax(intArray, intArray.length);
         for(int num : intArray){
             System.out.print(num+ ", ");

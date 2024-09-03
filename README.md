@@ -1,6 +1,5 @@
-## Collection of a bunch of things like algorithms spring tutorial and experimental Java stuff
-
-A brief description of what your project is about and what it does.
+## Collection of experimental Java Utils
+Experimental java Utils ranging from algorithms and exercises from books.
 ### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
