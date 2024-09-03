@@ -1,4 +1,4 @@
-## Collection of a bunch of things like algorithms spring tutorial and experimental Java stuff
+## Collection of experimental Java utils
 
 A brief description of what your project is about and what it does.
 ### Getting Started
