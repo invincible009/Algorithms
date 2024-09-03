@@ -1,5 +1,6 @@
-## Collection of experimental Java Utils
-Experimental java Utils ranging from algorithms and exercises from books.
+## Collection of experimental Java utils
+
+A brief description of what your project is about and what it does.
 ### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
